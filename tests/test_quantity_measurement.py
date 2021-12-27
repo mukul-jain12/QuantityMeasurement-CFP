@@ -36,13 +36,13 @@ class TestCase:
 
     @pytest.mark.parametrize("first_length", [5.0])
     def test_compare_two_same_inch_objects(self, first_length):
-        first_obj = Feet(first_length)
+        first_obj = Inch(first_length)
         second_obj = first_obj
         assert first_obj == second_obj
 
     @pytest.mark.parametrize("first_length", [2.0])
     def test_compare_two_same_yard_objects(self, first_length):
-        first_obj = Feet(first_length)
+        first_obj = Yard(first_length)
         second_obj = first_obj
         assert first_obj == second_obj
 
