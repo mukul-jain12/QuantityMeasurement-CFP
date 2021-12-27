@@ -4,7 +4,6 @@
     @Date :   26-12-2021
 """
 from measurement_exception import MeasurementException
-from length_conversion import Conversion
 
 
 class QuantityMeasurement:

@@ -6,6 +6,7 @@
 
 
 class Feet:
+    FEET = 1.0
 
     def __init__(self, feet):
         self.feet = feet
