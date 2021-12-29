@@ -6,7 +6,7 @@
 
 
 class Yard:
-    YARD = 0.33
+    YARD = 3.0
 
     def __init__(self, yard):
         self.yard = yard
