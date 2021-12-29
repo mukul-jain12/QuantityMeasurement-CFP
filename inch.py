@@ -6,7 +6,7 @@
 
 
 class Inch:
-    INCH = 12.0
+    INCH = 1.0
 
     def __init__(self, inch):
         self.inch = inch
